@@ -1,1 +1,1 @@
-# react-basics-workshop
+# React Basic Workshops
