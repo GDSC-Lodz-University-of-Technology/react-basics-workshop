@@ -1,0 +1,13 @@
+import Terminal from "../../components/Terminal.tsx";
+import TerminalLine from "../../components/TerminalLine.tsx";
+
+<Terminal
+  prompt="$"
+  lines={[
+    <TerminalLine withPrompt>npx create vite@latest</TerminalLine>,
+    <TerminalLine>
+      <span className="text-blue">?</span> Project name:{" "}
+      <span className="text-overlay">»</span> workshop-project
+    </TerminalLine>,
+  ]}
+/>

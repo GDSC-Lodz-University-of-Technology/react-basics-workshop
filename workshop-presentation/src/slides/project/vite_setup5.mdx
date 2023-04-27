@@ -1,0 +1,19 @@
+import Terminal from "../../components/Terminal.tsx";
+import TerminalLine from "../../components/TerminalLine.tsx";
+
+<Terminal
+  prompt="$"
+  lines={[
+    <TerminalLine withPrompt>cd workshop-project</TerminalLine>,
+    <TerminalLine withPrompt>npm install</TerminalLine>,
+    <TerminalLine> </TerminalLine>,
+    <TerminalLine>Added x packages, and audited y packages in zs</TerminalLine>,
+    <TerminalLine> </TerminalLine>,
+    <TerminalLine>N packages are looking for funding</TerminalLine>,
+    <TerminalLine>{"\t"}run `npm fund` for details</TerminalLine>,
+    <TerminalLine> </TerminalLine>,
+    <TerminalLine>found x vulnerabilities</TerminalLine>,
+    <TerminalLine withPrompt> </TerminalLine>,
+
+]}
+/>
